@@ -1,0 +1,13 @@
+password_tool/
+├── app/
+│   ├── __init__.py
+│   ├── analyzer.py          # Password strength analysis using zxcvbn or entropy
+│   ├── generator.py         # Wordlist generation logic (leet, dates, casing)
+│   ├── ui_cli.py            # CLI interface using argparse
+│   ├── ui_gui.py            # Optional GUI using tkinter
+│   └── utils.py             # Helpers: leetspeak map, year handling
+├── main.py                  # Entry point for GUI or CLI
+├── requirements.txt         # Dependencies
+├── README.md
+└── wordlists/
+    └── generated.txt        # Sample output (auto-created)
